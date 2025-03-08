@@ -186,7 +186,7 @@ export default function Home() {
               }
             ].map((testimonial, i) => (
               <div key={i} className="p-6 rounded-xl bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm border border-black/10 dark:border-white/10 shadow-md">
-                <div className="mb-4 text-2xl text-indigo-500">"</div>
+                <div className="mb-4 text-2xl text-indigo-500">&quot;</div>
                 <p className="italic mb-4">{testimonial.quote}</p>
                 <div className="flex items-center gap-3">
                   <div className="w-10 h-10 rounded-full bg-gradient-to-r from-blue-500 to-purple-600 flex items-center justify-center text-white font-bold">
